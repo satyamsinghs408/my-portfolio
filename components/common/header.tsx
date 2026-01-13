@@ -12,7 +12,7 @@ const Header = () => {
         <a href="#home" className="link">
           <Image
             src="/logo.svg"
-            alt="Logo - Ayush Singh"
+            alt="Logo - Satyam Singh"
             width={22}
             height={22}
           />

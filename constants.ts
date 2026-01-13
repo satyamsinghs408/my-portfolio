@@ -140,7 +140,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     size: ItemSize.SMALL,
     subtitle:
       "Full Time @ SmartITBox. Architecting scalability-focused web solutions using Next.js and Microservices.",
-    slideImage: "/timeline/akgec.svg",
+    slideImage: "/timeline/smartitbox.png",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -150,7 +150,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     size: ItemSize.SMALL,
     subtitle:
       "Internship @ SmartITBox. Contributed to 3+ major client projects and optimized backend performance.",
-    slideImage: "/timeline/akgec.svg",
+    slideImage: "/timeline/smartitbox.png",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -167,7 +167,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     size: ItemSize.SMALL,
     subtitle:
       "Certified Full Stack Web Developer from EXL. Mastered modern web technologies and best practices.",
-    slideImage: "/timeline/akgec.svg",
+    slideImage: "/timeline/exl.png",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -180,7 +180,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     size: ItemSize.SMALL,
     subtitle:
       "Completed B.Tech in Computer Science from Babu Banarasi Das University Lucknow UP.",
-    slideImage: "/timeline/akgec.svg",
+    slideImage: "/timeline/graduation.png",
     shouldDrawLine: true,
     alignment: Branch.RIGHT,
   },
@@ -190,7 +190,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     size: ItemSize.SMALL,
     subtitle:
       "Built diverse web applications for clients, focusing on React and Node.js ecosystems.",
-    slideImage: "/timeline/akgec.svg",
+    slideImage: "/timeline/freelance.png",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -210,7 +210,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     size: ItemSize.SMALL,
     subtitle:
       "Started journey in B.Tech (Computer Science & Engineering). Focused on Modern Web development.",
-    slideImage: "/timeline/akgec.svg",
+    slideImage: "/timeline/bbdu.png",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -220,7 +220,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     size: ItemSize.SMALL,
     subtitle:
       "Graduated with Diploma in Computer Science. Built strong foundation in programming basics.",
-    slideImage: "/timeline/akgec.svg",
+    slideImage: "/timeline/diploma.png",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -237,7 +237,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     size: ItemSize.SMALL,
     subtitle:
       "Enrolled in 3-year Polytechnic Diploma in Computer Science. Started coding journey with C/C++.",
-    slideImage: "/timeline/akgec.svg",
+    slideImage: "/timeline/diploma.png",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },

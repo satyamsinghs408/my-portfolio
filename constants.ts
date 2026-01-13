@@ -39,8 +39,8 @@ export const TYPED_STRINGS = [
 export const EMAIL = "satyamsinghs408@gmail.com";
 
 export const SOCIAL_LINKS = {
-  linkedin: "https://www.linkedin.com/",
-  github: "https://github.com/",
+  linkedin: "https://www.linkedin.com/in/satyam-singh-020178245/",
+  github: "https://github.com/satyamsinghs408",
 };
 
 export interface IProject {
@@ -55,12 +55,30 @@ export interface IProject {
 
 export const PROJECTS: IProject[] = [
   {
+    name: "Resume Builder",
+    image: "/projects/huminos.jpg",
+    blurImage: "/projects/blur/huminos-blur.jpg",
+    description: "Interactive resume builder with live preview and PDF export.",
+    gradient: ["#000066", "#6699FF"],
+    url: "https://github.com/satyamsinghs408/",
+    tech: ["react", "next", "typescript", "tailwind", "html", "css"],
+  },
+  {
+    name: "File Converter",
+    image: "/projects/dlt-website.jpg",
+    blurImage: "/projects/blur/dlt-website-blur.jpg",
+    description: "Lightweight tool to convert images to PDF using client-side rendering.",
+    gradient: ["#245B57", "#004741"],
+    url: "https://imgpdfhub.com/",
+    tech: ["react", "express", "javascript", "html", "css"],
+  },
+  {
     name: "IgniteVerse",
     image: "/projects/figgen.jpg",
     blurImage: "/projects/blur/figgen-blur.jpg",
     description: "Full-stack test and evaluation platform with real-time analytics.",
     gradient: ["#1F6582", "#1ABCFE"],
-    url: "https://github.com/",
+    url: "https://igniteverse.in/",
     tech: ["react", "node", "express", "mongodb", "javascript", "tailwind"],
   },
   {
@@ -69,26 +87,8 @@ export const PROJECTS: IProject[] = [
     blurImage: "/projects/blur/myokr-blur.jpg",
     description: "Event management platform with JWT authentication and role-based access.",
     gradient: ["#153BB9", "#0E2C8B"],
-    url: "https://github.com/",
+    url: "https://github.com/satyamsinghs408/",
     tech: ["react", "redux", "node", "express", "javascript", "tailwind"],
-  },
-  {
-    name: "Image to PDF Converter",
-    image: "/projects/dlt-website.jpg",
-    blurImage: "/projects/blur/dlt-website-blur.jpg",
-    description: "Lightweight tool to convert images to PDF using client-side rendering.",
-    gradient: ["#245B57", "#004741"],
-    url: "https://github.com/",
-    tech: ["react", "express", "javascript", "html", "css"],
-  },
-  {
-    name: "Resume Builder",
-    image: "/projects/huminos.jpg",
-    blurImage: "/projects/blur/huminos-blur.jpg",
-    description: "Interactive resume builder with live preview and PDF export.",
-    gradient: ["#000066", "#6699FF"],
-    url: "https://github.com/",
-    tech: ["react", "next", "typescript", "tailwind", "html", "css"],
   },
 ];
 
@@ -129,6 +129,76 @@ export enum ItemSize {
 export const TIMELINE: Array<TimelineNodeV2> = [
   {
     type: NodeTypes.CHECKPOINT,
+    title: "2025",
+    size: ItemSize.LARGE,
+    shouldDrawLine: false,
+    alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "Full Stack Developer",
+    size: ItemSize.SMALL,
+    subtitle:
+      "Full Time @ SmartITBox. Architecting scalability-focused web solutions using Next.js and Microservices.",
+    slideImage: "/timeline/akgec.svg",
+    shouldDrawLine: true,
+    alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "Software Intern",
+    size: ItemSize.SMALL,
+    subtitle:
+      "Internship @ SmartITBox. Contributed to 3+ major client projects and optimized backend performance.",
+    slideImage: "/timeline/akgec.svg",
+    shouldDrawLine: true,
+    alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "2024",
+    size: ItemSize.LARGE,
+    shouldDrawLine: false,
+    alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "Full Stack Certification",
+    size: ItemSize.SMALL,
+    subtitle:
+      "Certified Full Stack Web Developer from EXL. Mastered modern web technologies and best practices.",
+    slideImage: "/timeline/akgec.svg",
+    shouldDrawLine: true,
+    alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.DIVERGE,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "Graduated B.Tech (CSE)",
+    size: ItemSize.SMALL,
+    subtitle:
+      "Completed B.Tech in Computer Science from Babu Banarasi Das University Lucknow UP.",
+    slideImage: "/timeline/akgec.svg",
+    shouldDrawLine: true,
+    alignment: Branch.RIGHT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "Freelance Developer",
+    size: ItemSize.SMALL,
+    subtitle:
+      "Built diverse web applications for clients, focusing on React and Node.js ecosystems.",
+    slideImage: "/timeline/akgec.svg",
+    shouldDrawLine: true,
+    alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.CONVERGE,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
     title: "2021",
     size: ItemSize.LARGE,
     shouldDrawLine: false,
@@ -136,55 +206,21 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Frontend Engineer",
+    title: "B.Tech Admission",
     size: ItemSize.SMALL,
     subtitle:
-      "Frontend Engineer @ DLT Labs. Working on Design Systems and Web3.",
-    slideImage: "/timeline/dlt-website.jpg",
+      "Started journey in B.Tech (Computer Science & Engineering). Focused on Modern Web development.",
+    slideImage: "/timeline/akgec.svg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "2020",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "UI Engineer",
+    title: "Diploma Completed",
     size: ItemSize.SMALL,
     subtitle:
-      "Freelance UI Engineer @ Huminos. Redesigned the marketing website.",
-    slideImage: "/timeline/huminos-website.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Multimedia Head",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Multimedia Head @ Software Incubator (SDC-SI). Led a team of 10+ designers.",
-    slideImage: "/timeline/si-head.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "2019",
-    size: ItemSize.LARGE,
-    shouldDrawLine: false,
-    alignment: Branch.LEFT,
-  },
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Student Member",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Student Member @ Software Incubator (SDC-SI). Learned Graphics and Web Dev.",
-    slideImage: "/timeline/si-start.jpg",
+      "Graduated with Diploma in Computer Science. Built strong foundation in programming basics.",
+    slideImage: "/timeline/akgec.svg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -197,9 +233,10 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Collage",
+    title: "Polytechnic Diploma",
     size: ItemSize.SMALL,
-    subtitle: "B.Tech in CS from AKGEC, Ghaziabad.",
+    subtitle:
+      "Enrolled in 3-year Polytechnic Diploma in Computer Science. Started coding journey with C/C++.",
     slideImage: "/timeline/akgec.svg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,

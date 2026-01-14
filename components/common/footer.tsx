@@ -47,7 +47,7 @@ const Footer = () => {
         ></Button>
       </div>
       <h2 className="text-center text-sm sm:text-base mt-8">
-        Designed and Developed with ❤️ by Satyam
+        Designed and Developed with ❤️ by Satyam Singh
       </h2>
     </>
   );

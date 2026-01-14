@@ -3,7 +3,7 @@ export const METADATA = {
   title: "Portfolio | Satyam Singh",
   description:
     "Full Stack Developer proficient in designing, developing, and deploying scalable web applications using React.js, Node.js, Express.js, and MongoDB.",
-  siteUrl: "https://satyamsingh.vercel.app/",
+  siteUrl: "https://satyamsinghsportfolio.netlify.app/",
 };
 
 export const MENULINKS = [

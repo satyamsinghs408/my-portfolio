@@ -56,8 +56,8 @@ export interface IProject {
 export const PROJECTS: IProject[] = [
   {
     name: "Resume Builder",
-    image: "/projects/resume-builder.svg",
-    blurImage: "/projects/blur/huminos-blur.jpg",
+    image: "/projects/resume-builder.png",
+    blurImage: "/projects/blur/resume-builder-blur.png",
     description: "Interactive resume builder with live preview and PDF export.",
     gradient: ["#000066", "#6699FF"],
     url: "https://github.com/satyamsinghs408/",
@@ -65,8 +65,8 @@ export const PROJECTS: IProject[] = [
   },
   {
     name: "File Converter",
-    image: "/projects/pdf-converter.svg",
-    blurImage: "/projects/blur/dlt-website-blur.jpg",
+    image: "/projects/file-converter.png",
+    blurImage: "/projects/blur/file-converter-blur.png",
     description: "Lightweight tool to convert images to PDF using client-side rendering.",
     gradient: ["#245B57", "#004741"],
     url: "https://imgpdfhub.com/",
@@ -74,8 +74,8 @@ export const PROJECTS: IProject[] = [
   },
   {
     name: "IgniteVerse",
-    image: "/projects/figgen.jpg",
-    blurImage: "/projects/blur/figgen-blur.jpg",
+    image: "/projects/igniteverse.png",
+    blurImage: "/projects/blur/igniteverse-blur.png",
     description: "Full-stack test and evaluation platform with real-time analytics.",
     gradient: ["#1F6582", "#1ABCFE"],
     url: "https://igniteverse.in/",
@@ -83,8 +83,8 @@ export const PROJECTS: IProject[] = [
   },
   {
     name: "MeetUp Web App",
-    image: "/projects/myokr.jpg",
-    blurImage: "/projects/blur/myokr-blur.jpg",
+    image: "/projects/meetup.png",
+    blurImage: "/projects/blur/meetup-blur.png",
     description: "Event management platform with JWT authentication and role-based access.",
     gradient: ["#153BB9", "#0E2C8B"],
     url: "https://github.com/satyamsinghs408/",

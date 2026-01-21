@@ -14,6 +14,10 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name="description" content={METADATA.description} />
+        <meta
+          name="google-site-verification"
+          content="5yQvfm-b21CwNpETq9vt7x3DN2xmQQRocmmTlgfhWmA"
+        />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={METADATA.title} />

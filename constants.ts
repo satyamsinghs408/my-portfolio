@@ -60,7 +60,7 @@ export const PROJECTS: IProject[] = [
     blurImage: "/projects/blur/resume-builder-blur.png",
     description: "Interactive resume builder with live preview and PDF export.",
     gradient: ["#000066", "#6699FF"],
-    url: "https://github.com/satyamsinghs408/",
+    url: "https://resume-builder-six-ecru.vercel.app/",
     tech: ["react", "next", "typescript", "tailwind", "html", "css"],
   },
   {

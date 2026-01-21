@@ -56,7 +56,7 @@ export interface IProject {
 export const PROJECTS: IProject[] = [
   {
     name: "Resume Builder",
-    image: "/projects/huminos.jpg",
+    image: "/projects/resume-builder.svg",
     blurImage: "/projects/blur/huminos-blur.jpg",
     description: "Interactive resume builder with live preview and PDF export.",
     gradient: ["#000066", "#6699FF"],
@@ -65,7 +65,7 @@ export const PROJECTS: IProject[] = [
   },
   {
     name: "File Converter",
-    image: "/projects/dlt-website.jpg",
+    image: "/projects/pdf-converter.svg",
     blurImage: "/projects/blur/dlt-website-blur.jpg",
     description: "Lightweight tool to convert images to PDF using client-side rendering.",
     gradient: ["#245B57", "#004741"],

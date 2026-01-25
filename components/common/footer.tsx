@@ -60,7 +60,7 @@ const Footer = () => {
       id={footerRef}
     >
       <img
-        src="/footer-curve.svg"
+        src="/footer-curve-new.svg"
         alt="Footer"
         className="w-full"
         loading="lazy"
